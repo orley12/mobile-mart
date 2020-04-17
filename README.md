@@ -1,16 +1,20 @@
-# mobile_mart
+# mobile-mart
 
-A new Flutter project.
+#### Download application here
+[Mobile Mart APK](https://github.com/orley12/mobile-mart/raw/master/mobile-mart%20apk/mobile-mart-armeabi-v7a.apk)
 
-## Getting Started
+#### What does this Application does?
+- mobile-mart is a cross platform mobile Application, built with the Flutter SDK, that runs on both Android and iOS platform . It enables the user create, edit, delete, view specific and all products. It also enables users take pictures of product via the Camera API, and also enables users launch the email application and send emails from within the application.
 
-This project is a starting point for a Flutter application.
+#### Technologies Used
+- Dart
+- Image Picker
+- RXDart
+- Scoped Model
+- Shared Preferences
+- URL Launcher
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### How should this be manually tested?
+- Clone this repo 
+- Open the project in Visual Studio Code or Android Studio, while you are connected to the internet run **flutter pub get** form your terminal. This will attempt to download necessary dependencies .
+- you can then connect your device and install the app by running **flutter run** in your terminal.
